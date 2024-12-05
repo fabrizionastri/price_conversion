@@ -1,0 +1,23 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+.vagrant
+
+db.sqlite3
+requirements-dev.lock
+requirements.lock
+
+# auto generated documentation files
+.vscode/
+
+# ignore auto generated migration files, but keep the __init__.py files
+**/migrations/*
+!**/migrations/__init__.py
+
